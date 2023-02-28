@@ -1,32 +1,20 @@
-
 import java.util.Scanner;
 
 public class Slide35 {
-    public static void main(String[] args){
-     
-     int[] soNguyen;
-     int n;
-     int min = 0;
-     Scanner sc = new Scanner(System.in);
-     System.out.println(" Nhap vao so n:");
-     n = sc.nextInt();
-     soNguyen = new int[n];
-     for(int i = 0; i < n; i++)
-     {
-        System.out.println("Nhap vao so nguyen:");
-        soNguyen[i] = sc.nextInt();
-     } 
-     min = soNguyen[0];
-     for(int i = 0; i < n; i++)
-     {
-        if(soNguyen[i] < min)
-        min = soNguyen[i];
+    public static void main(String[] args) throws Exception {
+        int a, b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("nhap so a:");
+        a = sc.nextInt();
+        System.out.println("nhap so b:");
+        b = sc.nextInt();
+        if (a > b) {
+            System.out.println("So nho hon la: " + b);
+        } else if (a < b) {
+            System.out.println("So nho hon la: " + a);
+        } else {
+            System.out.println("Hai so bang nhau");
 
-     }
-
-
-System.out.println("phan tu co gia tri nho nhat la" + min);
+        }
 
     }
-    
-}

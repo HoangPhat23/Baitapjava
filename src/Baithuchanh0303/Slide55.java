@@ -7,9 +7,9 @@ public class Slide55 {
         if(i%5!=0){
             continue;}
 
-            System.out.println(i);
-        
+            System.out.println(i);  
     }
+    
     }
     
 }

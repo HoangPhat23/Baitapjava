@@ -1,3 +1,4 @@
+package Baithuchanh2402;
 import java.util.Scanner;
 public class Slide30 { 
     public static void main(String[] args) {
